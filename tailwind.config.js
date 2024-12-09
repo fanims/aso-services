@@ -12,7 +12,7 @@ module.exports = {
         'text-color': '#8492A7',
         'text-light': '#D2EBFF',
         'theme-color': '#008AFF',
-        'header-color': '#222D39',
+        'heading-color': '#222D39',
         'border-color': '#DEE7EE',
         'background-color': '#F7F9FC',
       },

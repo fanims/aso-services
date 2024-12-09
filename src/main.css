@@ -2,3 +2,67 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.container{
+    @apply as-max-w-[1344px];
+}
+.as-btn,
+.as-btn-two{
+    @apply 
+    as-border
+    as-rounded
+    as-uppercase
+    as-py-[15px]
+    as-px-[29px]
+    as-gap-[8px]
+    as-capitalize
+    as-bg-white
+    as-text-[18px]
+    as-inline-flex
+    as-ease-in-out
+    as-border-solid
+    as-items-center
+    as-duration-300
+    as-min-w-[200px]
+    as-font-semibold
+    as-border-white
+    as-justify-center
+    as-leading-[28px]
+    as-font-body-font
+    as-transition-all
+    as-cursor-pointer
+    as-text-theme-color
+}
+.as-btn:hover{
+    @apply
+    as-text-white
+    as-bg-theme-color
+}
+.as-btn-two{
+    @apply
+    as-text-white
+    as-bg-theme-color
+}
+.as-btn-two:hover{
+    @apply
+    as-bg-white
+    as-text-theme-color
+}
+.as-section-title span{
+    @apply
+    as-text-lg
+    as-text-left
+    as-uppercase
+    as-font-body-font
+    as-text-theme-color
+}
+.as-section-title h2{
+    @apply
+    as-mt-[10px]
+    as-text-left
+    as-capitalize
+    as-text-[40px]
+    as-max-w-[645px]
+    as-leading-[54px]
+    as-font-heading-font
+    as-text-heading-color
+}

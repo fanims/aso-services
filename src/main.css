@@ -6,7 +6,8 @@
     @apply as-max-w-[1344px];
 }
 .as-btn,
-.as-btn-two{
+.as-btn-two,
+.as-btn-white{
     @apply 
     as-border
     as-rounded
@@ -15,22 +16,22 @@
     as-px-[29px]
     as-gap-[8px]
     as-capitalize
-    as-bg-white
     as-text-[18px]
     as-inline-flex
     as-ease-in-out
     as-border-solid
     as-items-center
     as-duration-300
+    as-text-white
     as-min-w-[200px]
     as-font-semibold
-    as-border-white
     as-justify-center
     as-leading-[28px]
     as-font-body-font
     as-transition-all
     as-cursor-pointer
-    as-text-theme-color
+    as-bg-theme-color
+    as-border-theme-color
 }
 .as-btn:hover{
     @apply
@@ -45,6 +46,12 @@
 .as-btn-two:hover{
     @apply
     as-bg-white
+    as-text-theme-color
+}
+.as-btn-white{
+    @apply
+    as-bg-white 
+    as-border-white 
     as-text-theme-color
 }
 .as-section-title span{

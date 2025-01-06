@@ -8,7 +8,8 @@
     "vite": "^6.0.2"
   },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "name": "aso-services",
   "version": "1.0.0",
